@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: Poppins;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1512px;
+    margin: 0 auto;
+    background: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 200px;
+}
+
+.menu {
+    font-size: 24px;
+    list-style-type: none;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.menu-item {
+
+}
