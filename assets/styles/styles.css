@@ -60,3 +60,9 @@ body {
     font-family: Poppins;
     gap: 4px;
 }
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 70px;
+}
