@@ -35,6 +35,28 @@ body {
     gap: 55px;
 }
 
-.menu-item {
+.main-title {
+    font-size: 98px;
+    font-weight: 700;
+    margin: 4px;
+    width: 652px;
+    line-height: 114.17px;
+    text-align: center;
+    border: 1px;
+}
 
+.main-subtitle {
+    font-weight: 400;
+    line-height: 23.3px;
+    text-align: center;
+    size: 20px;
+    margin: 0 38px;
+}
+
+.main-title-container {
+    width: 652px;
+    height: 278px;
+    margin: 70 auto;
+    font-family: Poppins;
+    gap: 4px;
 }
