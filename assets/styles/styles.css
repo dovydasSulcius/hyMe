@@ -63,6 +63,11 @@ body {
 
 .info {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 120px 70px;
+}
+
+.info-div {
+    width: 311px;
 }
