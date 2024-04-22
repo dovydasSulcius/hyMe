@@ -69,5 +69,18 @@ body {
 }
 
 .info-div {
-    width: 311px;
+    width: 331px;
+}
+
+.info-div h2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 13px 0;
+}
+
+.info-div p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    width: 309px;
 }
