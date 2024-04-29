@@ -23,7 +23,6 @@ body {
     position: relative;
     background: url("../images/background.png");
     background-repeat: no-repeat;
-    background-color: black;
 }
 
 .header {
@@ -106,7 +105,6 @@ body {
     display: flex;
     height: auto;
     justify-content: space-between;
-    margin: 70px auto 0;
-    position: relative;
-    background-color: black;
+    align-items: center;
+    margin: 70px auto;
 }
