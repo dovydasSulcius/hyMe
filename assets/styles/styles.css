@@ -30,6 +30,11 @@ body a {
     background-repeat: no-repeat;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .destinations-title-container {
     height: 944px;
     margin: 0 auto;
