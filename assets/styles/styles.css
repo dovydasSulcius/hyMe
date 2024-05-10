@@ -6,6 +6,11 @@ body {
     font-family: Poppins;
 }
 
+body a {
+    all: unset;
+    cursor: pointer;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -22,6 +27,14 @@ body {
     margin: 0 auto;
     position: relative;
     background: url("../images/background.png");
+    background-repeat: no-repeat;
+}
+
+.destinations-title-container {
+    height: 944px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/destinations-background.png");
     background-repeat: no-repeat;
 }
 
@@ -106,5 +119,27 @@ body {
     height: auto;
     justify-content: space-between;
     align-items: center;
-    margin: 70px auto;
+    margin: 70px auto 84px;
 }
+
+.best-destinations-container {
+    margin: 36px auto 0;
+    width: 566px;
+    gap: 2px;
+    text-align: center;
+}
+
+.best-destinations-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46.6px;
+    margin: auto;
+}
+
+.best-destinations-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.9px;
+    margin: 0;
+}
+
