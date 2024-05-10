@@ -131,7 +131,6 @@ body a:hover {
     gap: 2px;
     display: flex;
     align-items: center;
-    font-family: Poppins;
     flex-wrap: wrap;
     text-align: center;
 }
