@@ -148,3 +148,84 @@ body a {
     margin: 0;
 }
 
+.destinations-location-container {
+    margin: 53px auto;
+    width: 1415px;
+    height: 1106px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.destinations-location-side-column {
+    width: 476px;
+    margin-top: 0;
+}
+
+.destinations-location-center-column {
+    width: 417px;
+}
+
+.all-destination-box {
+    border-radius: 50px;
+    padding: 50px 50px 50px 30px;
+}
+
+.destinations-location-box-header {
+    font-weight: 800;
+    font-size: 36px;
+    margin: 0;
+    line-height: 45px;
+}
+
+.destinations-location-box-info {
+    font-size: 16px;
+    margin: 0;
+}
+
+.hisma {
+    margin-bottom: 14px;
+    height: 672px;
+    background: url("../images/hisma-desert.png");
+}
+
+.tabuk {
+    height: 420px;
+    background: url("../images/tabuk.png");
+}
+
+.al-qarah {
+    margin-bottom: 15px;
+    height: 682px;
+    background: url("../images/al-qarah.png");
+}
+
+.taif {
+    height: 409px;
+    background: url("../images/taif.png");
+}
+
+.riyadh {
+    margin-bottom: 15px;
+    height: 380px;
+    background: url("../images/riyadh.png");
+}
+
+.aiuia {
+    height: 711px;
+    background: url("../images/aiuia.png");
+}
+
+.traveler {
+    height: 81px;
+    display: flex;
+    gap: 14px;
+    margin-top: calc(100% - 19px);
+}
+
+.fake-img {
+    height: 81px;
+    width: 81px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
