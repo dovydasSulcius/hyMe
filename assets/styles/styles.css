@@ -159,7 +159,6 @@ body a {
 
 .destinations-location-side-column {
     width: 476px;
-    margin-top: 0;
 }
 
 .destinations-location-center-column {
@@ -172,6 +171,10 @@ body a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.destinations-location-container div .all-destination-box:first-of-type {
+    margin-bottom: 15px;
 }
 
 .destinations-location-box-header {
@@ -187,7 +190,6 @@ body a {
 }
 
 .hisma {
-    margin-bottom: 14px;
     height: 672px;
     background: url("../images/hisma-desert.png");
 }
@@ -198,7 +200,6 @@ body a {
 }
 
 .al-qarah {
-    margin-bottom: 15px;
     height: 682px;
     background: url("../images/al-qarah.png");
 }
@@ -209,7 +210,6 @@ body a {
 }
 
 .riyadh {
-    margin-bottom: 15px;
     height: 380px;
     background: url("../images/riyadh.png");
 }
