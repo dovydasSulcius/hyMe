@@ -30,6 +30,11 @@ body a {
     background-repeat: no-repeat;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .destinations-title-container {
     height: 944px;
     margin: 0 auto;
@@ -143,3 +148,108 @@ body a {
     margin: 0;
 }
 
+.destinations-location-container {
+    margin: 53px auto;
+    width: 1415px;
+    height: 1106px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.destinations-location-side-column {
+    width: 476px;
+}
+
+.destinations-location-center-column {
+    width: 417px;
+}
+
+.all-destination-box {
+    border-radius: 50px;
+    padding: 50px 50px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.destinations-location-container div .all-destination-box:first-of-type {
+    margin-bottom: 15px;
+}
+
+.destinations-location-box-header {
+    font-weight: 800;
+    font-size: 36px;
+    margin: 0;
+    line-height: 45px;
+}
+
+.destinations-location-box-info {
+    font-size: 16px;
+    margin: 0;
+}
+
+.hisma {
+    height: 672px;
+    background: url("../images/hisma-desert.png");
+}
+
+.tabuk {
+    height: 420px;
+    background: url("../images/tabuk.png");
+}
+
+.al-qarah {
+    height: 682px;
+    background: url("../images/al-qarah.png");
+}
+
+.taif {
+    height: 409px;
+    background: url("../images/taif.png");
+}
+
+.riyadh {
+    height: 380px;
+    background: url("../images/riyadh.png");
+}
+
+.aiuia {
+    height: 711px;
+    background: url("../images/aiuia.png");
+}
+
+.traveler {
+    align-items: center;
+    height: 81px;
+    display: flex;
+    gap: 14px;
+}
+
+.traveler-img {
+    height: 81px;
+    width: 81px;
+    border-radius: 50%;
+}
+
+.traveler-desc {
+    font-size: 17px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.traveler-desc p {
+    margin: 0;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.see-more-link {
+    text-align: right;
+    margin: 57px 54px;
+    font-size: 20px;
+    line-height: 24.9px;
+    text-decoration: underline;
+}
