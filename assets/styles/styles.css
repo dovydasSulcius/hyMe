@@ -253,3 +253,30 @@ body a {
     line-height: 24.9px;
     text-decoration: underline;
 }
+
+.whatsapp-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 60px;
+    border-radius: 128px;
+    background-color: #047E01;
+    padding: 80px;
+    background-image: linear-gradient(#FFFFFF 0%,#047E01 10% 90%, #FFFFFF 100%);
+}
+
+.whatsapp-contact-us {
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.whatsapp-start-chat {
+    width: 230px;
+    border-color: white;
+    font-size: 24px;
+    line-height: 25px;
+    height: 75px;
+    background-color: #ffffff;
+    color: #047E01;
+    border-radius: 19px;
+}
